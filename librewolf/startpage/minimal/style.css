@@ -1,0 +1,80 @@
+/* Base */
+
+* {
+  color: #A5ADCE;
+  font-size: 24px;
+  font-family: JetBrainsMono Nerd Font;
+  background-color: #0F0F15;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25% 0;
+}
+
+input {
+  border: none;
+} :focus {
+  outline: none;
+}
+
+ul {
+  list-style: square;
+}
+
+a {
+  color: #A5ADCE;
+}
+
+a:hover {
+  color: #FAB387;
+  font-weight: bold;
+}
+
+/* Grid */
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+    
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Dividers */
+
+.underline {
+  border-bottom: 2px solid whitesmoke;
+}
+
+/* Misc */
+
+#art {
+  height: 100%;
+  width: auto;
+}
+
+#weather {
+  min-height: 120px;
+}
+
+#poem, #author {
+  display: flex;
+  margin: 0 auto;
+  min-height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.search {
+  width: 100%;
+  margin: 0 10px;
+}

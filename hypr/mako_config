@@ -1,0 +1,15 @@
+# Config for mako (notification daemon)
+
+font=JetBrainsMono 12
+format=<span foreground='#FAB387'>%s</span>\n<span foreground='#A5ADCE'>%b</span>
+layer=overlay
+background-color=#0F0F15FF
+
+border-size=1
+border-color=#2B2A33
+
+# Timeout is in milliseconds
+default-timeout=2400
+anchor=bottom-right
+icons=0
+max-icon-size=64
