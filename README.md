@@ -1,4 +1,4 @@
-# [Hyprland] Kanagawa
+# [Hyprland] Smile
 
 A simple, cohesive, Hyprland rice, using the [horizon](https://horizontheme.netlify.app/) colourscheme.
 
@@ -12,4 +12,4 @@ Click here for [nvim config](https://github.com/TheGogy/nvim), or here for [tmux
 
 ![Showcase](./showcase.png)
 
-For setting up firefox / librewolf, look [here](./librewolf/README.md)
+For setting up firefox / librewolf, look [here](./librewolf/)
