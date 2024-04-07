@@ -8,7 +8,7 @@ Terminal  --> [Foot](https://gitlab.com/dnkl/foot/)
 
 Bar       --> [Waybar](https://github.com/alexays/waybar)
 
-Click here for [nvim config](https://github.com/thegogy/nvim)
+Click here for [nvim config](https://github.com/TheGogy/nvim), or here for [tmux config](https://github.com/TheGogy/tmux)
 
 ![Showcase](./showcase.png)
 
