@@ -1,1 +1,1 @@
-bemenu-run -H 30 --fn "JetBrainsMono" --hp=8 --tb="#0F0F15" --tf="#FAB387" --fb="#0F0F15" --ff="#FAB387" --nb="#0F0F15" --nf="#FAB387" --hb="#FAB387" --hf="#0F0F15" --ab="#0F0F15" --af="#FAB387" -p ">"
+bemenu-run -H 20 --fn "JetBrainsMono" --hp=8 --tb="#0F0F15" --tf="#FAB387" --fb="#0F0F15" --ff="#FAB387" --nb="#0F0F15" --nf="#FAB387" --hb="#FAB387" --hf="#0F0F15" --ab="#0F0F15" --af="#FAB387" -p ">"

@@ -1,6 +1,6 @@
 # [Hyprland] Kanagawa
 
-A simple, cohesive, Hyprland rice based on the Kanagawa colourscheme.
+A simple, cohesive, Hyprland rice, using the [horizon](https://horizontheme.netlify.app/) colourscheme.
 
 WM        --> [Hyprland](https://hyprland.org)
 

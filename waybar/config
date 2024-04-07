@@ -1,29 +1,13 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 30,
+    "height": 20,
 
     "modules-left": ["hyprland/workspaces", "custom/sep", "hyprland/window"],
-    "modules-right": ["tray", "privacy", "custom/sep", "temperature", "custom/sep", "custom/disk-root", "custom/disk-home","custom/sep", "cpu", "custom/sep", "memory", "custom/sep", "pulseaudio", "custom/sep", "backlight", "custom/sep", "network", "custom/sep", "battery", "custom/sep", "clock"],
+    "modules-right": ["tray", "custom/sep", "temperature", "custom/sep", "cpu", "custom/sep", "memory", "custom/sep", "pulseaudio", "custom/sep", "backlight", "custom/sep", "network", "custom/sep", "battery", "custom/sep", "clock"],
     "clock": {
-      "format": "<span foreground='#fab387'>{:%H:%M}</span>",
+      "format": "<span foreground='#c099ff'>{:%H:%M}</span>",
       "format-alt": "<span foreground='#fab387'>{:%H:%M [%A, %B %d]}</span>",
-	  "tooltip": false,
-      "tooltip-format": "<tt><small>{calendar}</small></tt>",
-      "calendar": {
-         "mode"          : "year",
-         "mode-mon-col"  : 3,
-         "weeks-pos"     : "right",
-         "on-scroll"     : 1,
-         "on-click-right": "mode",
-         "format": {
-          "months":     "<span color='#ffead3'><b>{}</b></span>",
-          "days":       "<span color='#ecc6d9'><b>{}</b></span>",
-          "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
-          "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
-          "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
-          }
-        }
     },
     "custom/disk-root": {
       "interval": 60,
@@ -37,16 +21,16 @@
     },
     "cpu": {
       "interval": 10,
-      "format": "<span foreground='#fab387'>CPU</span> {usage}",
+      "format": "<span foreground='#86e1fc'>CPU</span> {usage}",
       "tooltip-format": "{avg_frequency} GHz"
     },
     "memory": {
       "interval": 30,
-      "format": "<span foreground='#fab387'>MEM</span> {percentage}",
-      "tooltip-format": "Mem: {percentage} || Swap: {swapPercentage}"
+      "format": "<span foreground='#c3e88d'>MEM</span> {used}",
+      "tooltip-format": "Mem: {used}/{total} ({percentage}%) || Swap: {swapUsed}/{swapTotal} ({swapPercentage}%)"
     },
     "hyprland/window": {
-      "format": "<span foreground='#b4befe'>{}</span>",
+      "format": "<span foreground='#c8d3f5'>{}</span>",
       "max-length": 120,
     },
     "hyprland/workspaces": {
@@ -63,14 +47,17 @@
         "8": "八",
         "9": "九",
         "10": "十",
-        "default": "一",
+        "default": "〇",
       }
     },
+		"hyprland/language": {
+	    "format": "Lang: {keyboard-name}",
+	},
     "custom/sep": {
-      "format": "|"
+      "format": "│"
     },
     "battery": {
-        "format": "<span foreground='#fab387'>BAT</span> {capacity}",
+        "format": "<span foreground='#fca7ea'>BAT</span> {capacity}",
         "format-icons": ["", "", "", "", ""],
         "format-charging": "<span foreground='#fab387'>CHG</span> {capacity}",
         "interval": 30,
@@ -83,12 +70,12 @@
     },
     "backlight": {
       "device": "intel_backlight",
-      "format": "<span foreground='#fab387'>BKL</span> {percent}",
+      "format": "<span foreground='#ff966c'>BKL</span> {percent}",
       "format-icons": ["", ""],
       "tooltip": false
     },
     "network": {
-        "format": "<span foreground='#fab387'>{ifname}</span> {essid} {ipaddr} <span foreground='#fab387'></span> {bandwidthUpBytes} <span foreground='#fab387'></span> {bandwidthDownBytes}",
+        "format": "<span foreground='#ff757f'>{ifname}</span> {essid} {ipaddr} <span foreground='#ff757f'></span> {bandwidthUpBytes} <span foreground='#ff757f'></span> {bandwidthDownBytes}",
         "format-icons": {
             "wifi": ["󰖩"],
             "ethernet": ["󰈀"],
@@ -101,7 +88,7 @@
         "tooltip-format-disconnected": "Disconnected",
     },
     "pulseaudio": {
-      "format": "<span foreground='#fab387'>VOL</span> {volume}",
+      "format": "<span foreground='#ffc777'>VOL</span> {volume}",
       "format-bluetooth": "{icon} {volume} []",
       "format-muted": "<span foreground='#fab387'>VOL</span> --",
       "format-icons": {
@@ -120,7 +107,7 @@
       "ignored-sinks": ["Easy Effects Sink"]
     },
 	"temperature": {
-      "format": " <span foreground='#fab387'>TMP</span> {temperatureC} "
+      "format": " <span foreground='#65bcff'>TMP</span> {temperatureC} "
 	},
 	"privacy": {
 		"icon-spacing": 4,
@@ -151,5 +138,5 @@
         "return-type": "json",
         "interval": 60,
         "exec": "~/.config/waybar/modules/storage.sh"
-    }
+    },
 }
