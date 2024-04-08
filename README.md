@@ -2,14 +2,14 @@
 
 A simple, cohesive, Hyprland rice, using the [horizon](https://horizontheme.netlify.app/) colourscheme.
 
-WM        --> [Hyprland](https://hyprland.org)
+* WM        --> [Hyprland](https://hyprland.org)
+* Terminal  --> [Foot](https://gitlab.com/dnkl/foot/)
+* Bar       --> [Waybar](https://github.com/alexays/waybar)
 
-Terminal  --> [Foot](https://gitlab.com/dnkl/foot/)
+## Contents
 
-Bar       --> [Waybar](https://github.com/alexays/waybar)
+* [Showcase](#Showcase)
 
-Click here for [nvim config](https://github.com/TheGogy/nvim), or here for [tmux config](https://github.com/TheGogy/tmux)
+# Showcase
 
 ![Showcase](./showcase.png)
-
-For setting up firefox / librewolf, look [here](./librewolf/)
