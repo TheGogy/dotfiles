@@ -9,7 +9,7 @@ A simple, cohesive, Hyprland rice, using the [horizon](https://horizontheme.netl
 ## Contents
 
 * [Installation](#installation)
-  * [Setup Firefox / Librewolf](#./librewolf/)
+  * [Setup Firefox / Librewolf](./librewolf/)
 * [Showcase](#Showcase)
 
 # Installation
