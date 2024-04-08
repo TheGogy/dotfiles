@@ -39,3 +39,4 @@ To get the startpage for firefox / librewolf, look [here](./librewolf/).
 # Showcase
 
 ![Showcase](./showcase.png)
+![Browser](./librewolf/browser-showcase.png)
