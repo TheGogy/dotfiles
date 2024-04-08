@@ -25,7 +25,7 @@ git clone https://github.com/TheGogy/dotfiles
 You can then copy the files from `.config` to your config directory. Make sure to make any backups if required.
 
 ```bash
-mv dotfiles/.config/* ~/.config/
+mv dotfiles/.config/ ~
 ```
 
 Some files in the config (specifically [hyprland.conf](./.config/hypr/hyprland.conf) require the specific wallpaper to be in `~/wallpapers/`. You can copy the entire folder over, or just the wallpaper you want.
